@@ -23,6 +23,8 @@ public class MainActivity extends AppCompatActivity{
         fragment3 = new Fragment3();
         fragment4 = new Fragment4();
 
+
+
         fragmentManager = getSupportFragmentManager();
 
         FragmentTransaction transaction = fragmentManager.beginTransaction();
